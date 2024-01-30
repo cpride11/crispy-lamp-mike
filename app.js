@@ -4,7 +4,7 @@ const port = process.env.PORT || 5500;
 
 // set the view engine to ejs
 
-let path = requre('path'); 
+let path = require('path'); 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
