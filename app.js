@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'));
 // use res.render to load up an ejs view file
 
 //type in result from the enneagram test
-let myTypeServer = "";
+let myTypeServer = "The Investigator";
 
 app.get('/', function (req, res) {
 
@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
 
 app.get('/', function (req, res) {
   
-    res.send('Hello World from Express ')
+    res.send('Hello World from Express')
 })
 
 app.listen(3000)
